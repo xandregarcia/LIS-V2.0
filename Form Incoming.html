@@ -111,13 +111,13 @@
     </div>
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="#"><span>Home</span></a></li>
-        <li class="breadcrumb-item"><a href="List%20Users.html"><span>Users</span></a></li>
-        <li class="breadcrumb-item active"><span>Create User</span></li>
+        <li class="breadcrumb-item"><a href="List%20Users.html"><span>Incoming</span></a></li>
+        <li class="breadcrumb-item active"><span>Incoming Communication</span></li>
     </ol>
     <main class="text-left border rounded" style="height: 550px;width: 900px;margin: 0px;margin-top: 60px;margin-right: 200px;margin-bottom: 0px;margin-left: 350px;box-shadow: 0px 0px 4px 1px;background: #ffffff;padding-top: 0px;color: rgb(0,0,0);">
         <div class="row" style="background: #e0dcdc;margin-left: 0px;margin-right: 0px;padding-top: 0px;box-shadow: 0px 1px rgb(140,145,149);padding-bottom: 10px;">
             <div class="col">
-                <h1 style="font-size: 25px;padding: 0px;padding-right: 0px;margin-left: 5px;padding-top: 30px;padding-bottom: 15px;">User<i class="far fa-edit" style="margin-right: 3px;margin-bottom: 0px;margin-left: 12px;"></i></h1>
+                <h1 style="font-size: 25px;padding: 0px;padding-right: 0px;margin-left: 5px;padding-top: 30px;padding-bottom: 15px;">Incoming Communication<i class="far fa-edit" style="margin-right: 3px;margin-bottom: 0px;margin-left: 12px;"></i></h1>
             </div>
             <div class="col" style="margin-top: 5px;">
                 <div class="form-group">
@@ -132,34 +132,53 @@
                 <div class="form-row" style="margin: 15px;">
                     <div class="col">
                         <div class="form-group" style="padding-top: 0px;width: 400px;">
-                            <form style="padding-top: 15px;padding-bottom: 15px;"><label style="font-size: 20px;margin-bottom: 0px;margin-right: 0px;margin-top: 20px;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 20px;">First Name</label><input class="border rounded form-control" type="text"
-                                    style="width: 250px;margin-right: 0px;margin-left: 150px;margin-top: -35px;padding-right: 15px;box-shadow: 1px 1px rgb(77,79,81), 1px 1px rgb(77,79,81);" required=""></form>
-                            <form style="padding-top: 15px;padding-bottom: 15px;"><label style="font-size: 20px;margin-bottom: 0px;margin-right: 0px;margin-top: 20px;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 20px;">Last Name</label><input class="border rounded form-control" type="text"
-                                    style="width: 250px;margin-right: 0px;margin-left: 150px;margin-top: -35px;padding-right: 15px;box-shadow: 1px 1px rgb(77,79,81), 1px 1px rgb(77,79,81);" required=""></form>
-                            <form style="padding-top: 15px;padding-bottom: 15px;"><label style="font-size: 20px;margin-bottom: 0px;margin-right: 0px;margin-top: 20px;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 20px;">Username</label><input class="border rounded form-control" type="text"
-                                    style="width: 250px;margin-right: 0px;margin-left: 150px;margin-top: -35px;padding-right: 15px;box-shadow: 1px 1px rgb(77,79,81), 1px 1px rgb(77,79,81);" required=""></form>
-                            <form style="padding-top: 15px;padding-bottom: 15px;"><label style="font-size: 20px;margin-bottom: 0px;margin-right: 0px;margin-top: 20px;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 20px;">Role</label>
-                                <div class="dropdown show" style="margin-top: -35px;margin-left: 150px;"><button class="btn btn-primary dropdown-toggle text-nowrap text-right" data-toggle="dropdown" aria-expanded="true" type="button" style="width: 250px;padding-right: 13px;background: transparent;box-shadow: 1px 1px 1px rgb(102,102,102);color: rgb(0,0,0);"></button>
+                            <form style="padding-top: 15px;padding-bottom: 15px;"><input class="border rounded form-control" type="text" style="width: 250px;margin-right: 0px;margin-left: 25px;margin-top: 10px;padding-right: 15px;box-shadow: 1px 1px rgb(77,79,81), 1px 1px rgb(77,79,81);text-align: center;"
+                                    required="" disabled="" placeholder="0000-0000" readonly=""></form>
+                            <form style="padding-top: 10px;padding-bottom: 10px;"><label style="font-size: 20px;margin-bottom: 0px;margin-right: 0px;margin-top: 20px;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;">Date Received</label><input class="border rounded form-control"
+                                    type="text" style="width: 250px;margin-right: 0px;margin-left: 150px;margin-top: -35px;padding-right: 15px;box-shadow: 1px 1px rgb(77,79,81), 1px 1px rgb(77,79,81);" required=""></form>
+                            <form style="padding-top: 0px;padding-bottom: 10px;"><label style="font-size: 20px;margin-bottom: 0px;margin-right: 0px;margin-top: 20px;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 35px;">Category</label>
+                                <div class="dropdown" style="margin-top: -35px;margin-left: 150px;"><button class="btn btn-primary dropdown-toggle text-nowrap text-right" data-toggle="dropdown" aria-expanded="false" type="button" style="width: 250px;padding-right: 13px;background: transparent;box-shadow: 1px 1px 1px rgb(102,102,102);color: rgb(0,0,0);"></button>
                                     <div
-                                        class="dropdown-menu show" style="width: 250px;"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                                        class="dropdown-menu" style="width: 250px;"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
                         </div>
                         </form>
+                        <form style="padding-top: 0px;padding-bottom: 10px;"><label style="font-size: 20px;margin-bottom: 0px;margin-right: 0px;margin-top: 20px;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 60px;">Origin</label>
+                            <div class="dropdown" style="margin-top: -35px;margin-left: 150px;"><button class="btn btn-primary dropdown-toggle text-nowrap text-right" data-toggle="dropdown" aria-expanded="false" type="button" style="width: 250px;padding-right: 13px;background: transparent;box-shadow: 1px 1px 1px rgb(102,102,102);color: rgb(0,0,0);"></button>
+                                <div
+                                    class="dropdown-menu" style="width: 250px;"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
                     </div>
+                    </form>
+                    <form style="padding-top: 0px;padding-bottom: 10px;"><label style="font-size: 20px;margin-bottom: 0px;margin-right: 0px;margin-top: 20px;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 60px;">Type</label>
+                        <div class="dropdown show" style="margin-top: -35px;margin-left: 150px;"><button class="btn btn-primary dropdown-toggle text-nowrap text-right" data-toggle="dropdown" aria-expanded="true" type="button" style="width: 250px;padding-right: 13px;background: transparent;box-shadow: 1px 1px 1px rgb(102,102,102);color: rgb(0,0,0);"></button>
+                            <div
+                                class="dropdown-menu show" style="width: 250px;"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
                 </div>
-                <div class="col" style="width: 420px;">
-                    <div class="form-group" style="padding-top: 0px;width: 450px;">
-                        <form style="padding-top: 15px;padding-bottom: 15px;"><label style="font-size: 20px;margin-bottom: 0px;margin-right: 0px;margin-top: 15px;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 10px;">Middle Name</label><input class="border rounded form-control" type="text"
-                                style="width: 280px;margin-right: 0px;margin-left: 150px;margin-top: -35px;padding-right: 25px;box-shadow: 1px 1px rgb(77,79,81), 1px 1px rgb(77,79,81);" required=""></form>
-                        <form style="padding-top: 15px;padding-bottom: 25px;"><label style="font-size: 20px;margin-bottom: 0px;margin-right: 0px;margin-top: 20px;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 10px;">Email Address</label><input class="border rounded form-control" type="text"
-                                style="width: 280px;margin-right: 0px;margin-left: 150px;margin-top: -35px;padding-right: 15px;box-shadow: 1px 1px rgb(77,79,81), 1px 1px rgb(77,79,81);" required=""></form>
-                        <form><label style="font-size: 20px;margin-bottom: 0px;margin-right: 0px;margin-top: 20px;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 10px;">Contact No.</label><input class="border rounded form-control" type="text"
-                                style="width: 280px;margin-right: 0px;margin-left: 150px;margin-top: -35px;padding-right: 15px;box-shadow: 1px 1px rgb(77,79,81), 1px 1px rgb(77,79,81);" required=""></form>
-                    </div>
-                </div>
+                </form>
+        </div>
+        <form style="padding-top: 0px;padding-bottom: 15px;"><label style="font-size: 20px;margin-bottom: 0px;margin-right: 0px;margin-top: 15px;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 10px;">Date Agenda</label><input class="border rounded form-control" type="text" style="width: 250px;margin-right: 0px;margin-left: 150px;margin-top: -35px;padding-right: 25px;box-shadow: 1px 1px rgb(77,79,81), 1px 1px rgb(77,79,81);"
+                required=""></form>
+        </div>
+        <div class="col">
+            <div class="form-group" style="padding-top: 0px;width: 400px;">
+                <form style="padding-top: 60px;padding-bottom: 15px;"><label style="font-size: 20px;margin-bottom: 0px;margin-right: 0px;margin-top: 20px;padding-top: 0px;padding-right: 0px;padding-bottom: 25px;padding-left: 0px;">Subject Matter</label><textarea class="form-control d-inline" style="padding-bottom: 0px;padding-top: 0px;max-height: none;"></textarea>
+                    <div
+                        class="form-row">
+                        <div class="col d-xl-flex justify-content-xl-center">
+                            <form>
+                                <div style="width: 200px;"><input type="file" id="user_group_logo" class="custom-file-input" accept="image/*" name="user_group_logo">
+                                    <div class="text-center"><label id="user_group_label" for="user_group_logo" style="font-size: 14px;"><i class="fas fa-upload"></i>&nbsp;Upload an Attachment</label></div>
+                                    <div class="text-center mt-2"><button class="btn btn-primary" type="submit">Upload</button></div>
+                                </div>
+                            </form>
+                        </div>
+            </div>
+            </form>
+        </div>
+        </div>
         </div>
         </form>
         </div>
-        <div class="col" style="width: 1000px;height: 75px;margin-bottom: 0px;margin-top: 251px;padding-right: 15px;padding-left: 0px;background: #00000000;"><button class="btn btn-secondary border rounded" type="reset" style="margin-right: 0px;margin-top: 20px;margin-left: 700px;padding-right: 20px;">RESET</button><button class="btn btn-primary text-nowrap border rounded shadow-lg pulse animated infinite"
+        <div class="col" style="width: 1000px;height: 75px;margin-bottom: 0px;margin-top: 251px;padding-right: 10px;padding-left: 0px;background: #00000000;"><button class="btn btn-secondary border rounded" type="reset" style="margin-right: 0px;margin-top: 20px;margin-left: 700px;padding-right: 20px;">RESET</button><button class="btn btn-primary text-nowrap border rounded shadow-lg pulse animated infinite"
                 type="submit" style="margin-right: 0px;margin-top: -65px;margin-left: 793px;box-shadow: 0px 0px 20px rgb(166,156,156);">SUBMIT</button></div>
     </main>
     <div class="footer-basic" style="margin-bottom: 0px;margin-top: 50px;box-shadow: 0px 0px;padding-top: 40px;text-align: justify;">
