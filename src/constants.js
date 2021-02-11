@@ -1,0 +1,1 @@
+export const apiUrl = 'https://sp-lis.herokuapp.com/api'
